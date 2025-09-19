@@ -46,8 +46,7 @@ ul {
     font-style: normal;
 }
 
-.contacts-mail,
-.contacts-phone {
+.contacts-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -55,13 +54,11 @@ ul {
     color:#434455
 }
 
-.contacts-mail:hover, 
-.contacts-phone:hover {
+.contacts-link:hover {
     color: #404bbf
 }
 
-.contacts-mail:focus,
-.contacts-phone:focus {
+.contacts-link:focus {
     color: #404bbf
 }
 
@@ -104,6 +101,7 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .values-text,
