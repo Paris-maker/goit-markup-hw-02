@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
+    color: #434455;
     background-color: #ffffff;
 }
 
@@ -16,7 +16,7 @@ ul {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -27,11 +27,15 @@ ul {
 }
 
 .nav-link {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.contacts {
+    font-style: normal;
 }
 
 .contacts-mail,
@@ -40,18 +44,17 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
     color:#434455
 }
 
 .contacts-mail:hover, 
 .contacts-phone:hover {
-    color: #4d5ae5
+    color: #404bbf
 }
 
 .contacts-mail:focus,
 .contacts-phone:focus {
-    color: #4d5ae5
+    color: #404bbf
 }
 
 .hero-section {
@@ -61,19 +64,29 @@ ul {
 .hero-header {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
 }
 
 .hero-button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4d5ae5;
     color:#ffffff;
+    cursor: pointer;
+}
+
+.hero-button.hover  {
+     background-color: #404BBF
+ }
+
+.hero-button.focus {
+    background-color: #404BBF
 }
 
 .values-title, 
@@ -107,9 +120,10 @@ ul {
 .portfolio-header {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .page-footer {
