@@ -34,6 +34,14 @@ ul {
     color: #2e2f42;
 }
 
+.nav-link:hover {
+    color: #404bbf;
+}
+
+.nav-link:focus {
+    color: #404bbf;
+}
+
 .contacts {
     font-style: normal;
 }
@@ -81,11 +89,11 @@ ul {
     cursor: pointer;
 }
 
-.hero-button.hover  {
+.hero-button:hover  {
      background-color: #404BBF
  }
 
-.hero-button.focus {
+.hero-button:focus {
     background-color: #404BBF
 }
 
@@ -116,6 +124,7 @@ ul {
     background-color: #ffffff;
 }
 
+.values-header,
 .team-header,
 .portfolio-header {
     font-weight: 700;
@@ -124,6 +133,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    color: #2e2f42
 }
 
 .page-footer {
